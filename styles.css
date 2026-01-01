@@ -148,6 +148,12 @@ nav a:hover {
   .person img {
     height: 12rem;
   }
+  .rechtliches {
+    display: block;
+  }
+  .rechtliches p {
+    font-size: 0.8rem;
+  }
 
   nav {
     flex-wrap: wrap;
