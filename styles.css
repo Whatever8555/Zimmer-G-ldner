@@ -159,4 +159,7 @@ nav a:hover {
   nav {
     flex-wrap: wrap;
   }
+  nav ul {
+    gap: 1rem;
+  }
 }
