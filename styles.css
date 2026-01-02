@@ -146,16 +146,19 @@ nav a:hover {
     gap: 2rem;
   }
   .person img {
-    height: 12rem;
+    height: 8rem;
   }
   .rechtliches {
     display: flex;
     gap: 1,4rem;
+    padding-top: 0rem;
   }
   .rechtliches p {
     font-size: 0.9rem;
   }
-
+  .footer-home {
+    display: none;
+  }
   nav {
     flex-wrap: wrap;
   }
