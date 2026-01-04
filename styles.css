@@ -5,6 +5,10 @@
   --accent_2: #E6F6F1;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
@@ -87,6 +91,17 @@ nav a:hover {
     text-align: center;
 }
 
+.leistungen {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 2rem 0 2rem;
+}
+
+.leistungen h3 {
+    font-size: 2rem;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -118,6 +133,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+
 .rechtliches {
     display: flex;
     justify-content: center;
@@ -134,6 +150,37 @@ nav a:hover {
 .rechtliches a {
     text-decoration: none;
     color: black;
+}
+
+.cases-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.cases-links h2 {
+  margin: 1rem 0 .5rem;
+}
+
+.cases-links a {
+  color: rgb(33, 77, 62);
+}
+
+.impressum {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 2rem 0 1rem;
+}
+
+.impressum h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem;
+}
+
+.impressum p {
+  line-height: 1.2rem;
 }
 
 
